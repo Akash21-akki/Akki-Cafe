@@ -8,7 +8,6 @@ print("Burger:- Rs120\nPizza:- Rs200\nPasta:- Rs150\nCoffee:- Rs80\nColdDrinks:-
 # Total Pricing
 Order_Total = 0
 
-
 # Item lists
 item_1 = input("Your Order Please: ")
 if item_1.lower() in menu:
