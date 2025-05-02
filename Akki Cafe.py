@@ -1,9 +1,15 @@
 # Define the menu of Restaurant
 menu = {"Burger":120, "Pizza":200, "Pasta":150, "Coffee":80, "ColdDrinks":50, "Noodles":100}
 
-# Great
+# # Great
+# print("Welcome to Akki Restaurant")
+# print("Burger:- Rs120\nPizza:- Rs200\nPasta:- Rs150\nCoffee:- Rs80\nColdDrinks:- Rs50\nNoodles:- Rs100")
+
+# Greeting
 print("Welcome to Akki Restaurant")
-print("Burger:- Rs120\nPizza:- Rs200\nPasta:- Rs150\nCoffee:- Rs80\nColdDrinks:- Rs50\nNoodles:- Rs100")
+print("Menu:")
+for item, price in menu.items():
+    print(f"{item}:- Rs{price}")
 
 # Total Pricing
 Order_Total = 0
